@@ -5,23 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css>">
-  <title>DeyaDrive</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>DeyaCard.com</title>
 </head>
 
 <body>
 
-  <div class="main-container">
+  <div class="master-container">
 
-<!-- Header Begins -->
     <header class="main-header">
       <nav class="search-bar">
 
-      <ul class="topnav home">
-        <li><a href="#">DeyaDrive.com</a></li>
-        <li><a href"#">Home</a></li>
-      </ul>
-    
+        <ul class="topnav home">
+          <li><a href="#">DeyaCard.com</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+
         <form>
           <label>
             The Web
@@ -29,8 +28,8 @@
           </label>
 
           <label>
-            DeyaDrive
-            <input type="radio" name="search-type" value="deya-drive">
+            DeyaCard
+            <input type="radio" name="search-type" value="deya-card">
           </label>
 
           <label>
@@ -40,7 +39,7 @@
           <input class="submit-btn" type="submit" name="submit-button" value="Search">
         </form>
 
-        <ul class="navbar">
+        <ul class="topnav signup">
           <li><a href="#">Help</a></li>
           <li><a href="#">SignUp</a></li>
         </ul>
@@ -67,19 +66,18 @@
 
     </header>
 
-    <!-- Header Ends -->
-
     <div class="page-content-container">
 
       <aside class="profile-sidebar">
+
         <header>
           <h1>Deya</h1>
         </header>
 
         <div class="profile-picture-container">
-          <img class="profile-pic" src="images/deya.jpg" alt="A profile picture of Deya, the creator of DeyaDrive.com">
+          <img class="profile-pic" src="images/deya.jpg" alt="A profile picture of Deya.">
 
-          <p class="personal-msg"><b>"Chillin' 🥶</b></p>
+          <p class="personal-msg"><b>"Chilling 🥶"</b></p>
 
           <ul class="gender-age">
             <li>Female</li>
@@ -95,19 +93,19 @@
                 <script>
                   date = new Date();
                   year = date.getFullYear();
-                  month = date.getMonth();
+                  month = date.getMonth() + 1;
                   day = date.getDate();
                   document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
                 </script>
               </div>
           </ul>
 
-          <p class="pics-videos">View My: <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a></p>
+          <p class="pics-videos">View My: <a href="Gallery.html"><b>Pics</b></a> | <a href="#"><b>Videos</b></a></p>
         </div>
 
-        <!-- Contact Box -->
         <section class="contact-box">
           <h2>Contacting Deya</h2>
+
           <figure class="contact-images">
             <img src="images/sendMailIcon.gif" alt="Send Message">
             <img src="images/forwardMailIcon.gif" alt="Forward to Friend">
@@ -120,16 +118,16 @@
           </figure>
         </section>
 
-        <!-- URL -->
-
-        <section class="deyadrive-url-box">
+        <section class="myspace-url-box">
           <h3><b>DeyaDrive URL:</b></h3>
-          <p>http://www.deyadrive.com</p>
+          <p>http://www.deyacard.com</p>
         </section>
 
-        <!-- Interests Section -->
+        
+
         <section class="interests">
           <table class="sidebar-table">
+
             <caption>
               <h2 class="sidebar-table-h2">Deya's Interests</h2>
             </caption>
@@ -138,7 +136,7 @@
               <tr>
                 <th class="sidebar-table-header" scope="row">General</th>
                 <td class="sidebar-table-data">
-                  <p>Movies, Soccer, Photography, Culture, Music, Pizza, Drumming, Cars, Jets, Travel, Technology, Video Games</p>
+                  <p>Movies, Soccer, Photography, Culture, Music, Pizza, Playing the drums, Cars, Jets, Travel, Technology</p>
                 </td>
               </tr>
 
@@ -147,14 +145,7 @@
                 <td class="sidebar-table-data">
                   <p>St. Vincent, Torres, Paramore, Billie Eilish, Lana Del Rey, Circa Survive, Glass Animals, Warpaint, Emily Haines, Lorde, Robyn, Justin Bieber, The xx, Hole, L7, Bjork, Nirvana, INXS, Daft Punk, Grimes, The Knife, Nine Inch Nails, Radiohead, Madonna 
                     <iframe width="0" height="0" src="https://www.youtube.com/embed/9PydvdEdGwE//?&;amp;;autoplay=1&;loop=1&;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy" loading="lazy">
-                    </iframe>                
-                  </td>
-              </tr>
-
-              <tr>
-                <th class="sidebar-table-header" scope="row">Television</th>
-                <td class="sidebar-table-data">
-                  <p>Killing Eve, Westworld, Dead to Me, Severance, Great British Baking Show, Schitt's Creek, Survivor, Friends</p>
+                    </iframe>
                 </td>
               </tr>
 
@@ -162,6 +153,14 @@
                 <th class="sidebar-table-header" scope="row">Movies</th>
                 <td class="sidebar-table-data">
                   <p>Titanic, A League of Their Own, High Art, Everything Everywhere All At Once, Legends of the Fall, anything Brad Pitt</p>
+
+                </td>
+              </tr>
+
+              <tr>
+                <th class="sidebar-table-header" scope="row">Television</th>
+                <td class="sidebar-table-data">
+                  <p>Killing Eve, Westworld, Dead to Me, Severance, Great British Baking Show, Schitt's Creek, Survivor, Friends</p>
                 </td>
               </tr>
 
@@ -176,7 +175,7 @@
           </table>
         </section>
 
-        <!-- Details Section -->
+       
 
         <section class="details">
           <table class="sidebar-table">
@@ -218,14 +217,12 @@
 
               <tr>
                 <th class="sidebar-table-header" scope="row">Occupation:</th>
-                <td class="sidebar-table-data">Full Stack Wed Developer / Freelance Photographer</td>
+                <td class="sidebar-table-data">Full Stack Web Developer</td>
               </tr>
 
             </tbody>
           </table>
         </section>
-
-        <!-- Education Section -->
 
         <section class="schools">
           <table class="sidebar-table">
@@ -238,11 +235,11 @@
               <tr>
                 <th class="sidebar-table-header" scope="row">
                   <ul>
-                    <li><a href="#">Epicodus</a></li>
+                    <li><a href="https://www.epicodus.com/">Epicodus</a></li>
                     <li>Portland, OREGON</li>
-                    <li>Graduated: 2022</li>
+                    <li>Graduated: <a href="#">2022</a></li>
                     <li>Certificate: Web and Mobile Development</li>
-                    <li>Focus: Ruby and Rails and React</li>
+                    <li>Focus: Ruby and React</li>
                   </ul>
                 </th>
                 <td class="sidebar-table-data">2022</td>
@@ -266,11 +263,11 @@
           </table>
         </section>
 
-        <!-- Links Section -->
         <br>
 
         <section class="details">
           <table class="sidebar-table">
+
             <caption>
               <h2 class="sidebar-table-h2">Deya's Links</h2>
             </caption>
@@ -278,7 +275,7 @@
             <tbody>
               <tr>
                 <th class="sidebar-table-header" scope="row">Instagram:</th>
-                <td class="sidebar-table-data"><a href="https://www.instagram.com/deyadrive/"><b>@DeyaCard</b></a></td>
+                <td class="sidebar-table-data"><a href="https://www.instagram.com/deyadrive/"><b>@Deyadrive</b></a></td>
               </tr>
 
               <tr>
@@ -287,7 +284,7 @@
               </tr>
 
               <tr>
-                <th class="sidebar-table-header" scope="row">GitHub:</th>
+                <th class="sidebar-table-header" scope="row">Github:</th>
                 <td class="sidebar-table-data"><a href="https://github.com/DeyaCard"><b>@DeyaCard</b></a></td>
               </tr>
 
@@ -295,13 +292,13 @@
                 <th class="sidebar-table-header" scope="row">LinkedIn:</th>
                 <td class="sidebar-table-data"><a href="https://www.linkedin.com/in/andrea-deya-card/"><b>@Andrea-Deya-Card</b></a></td>
               </tr>
-            
+
+
             </tbody>
           </table>
         </section>
       </aside>
 
-      <!-- Main Section -->
 
       <main>
 
@@ -312,10 +309,11 @@
         </section>
 
         <section class="blog">
-          <p><b>Deya's Latest Blog Entry</b> [<a href="#">Subscribe to this blog</a>]</p>
+          <p><b>Deya's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
           <p>Grandma's Neon Farmhouse (<a href="https://github.com/DeyaCard/Grandmas_Neon_Farmhouse">view more</a>) </p>
           <p>Event Ticket Inventory (<a href="https://github.com/DeyaCard/event-ticket-inventory">view more</a>)</p>
           <p>Mario's Specialty Foods (<a href="https://github.com/DeyaCard/marios_specialty_foods">view more</a>)</p>
+
         </section>
 
         <section class="blurbs">
@@ -327,13 +325,12 @@
           <p>I'm a Full Stack Web Developer and Sports Photographer from Portland, Oregon.
             You can find my coding portfolio under <strong>Blog</strong> entries and my photography gallery under <strong>Pics</strong>.
 
+          
 
           <h3>Who I'd like to meet:</h3>
           <p>Ideally, someone to provide an internship or entry level full stack position. </p>
         </section>
 
-        <!-- Friends Section -->
-        
         <section class="friends">
           <header class="main-section-header">
             <h2 class="main-section-h2">Deya's Friend Space</h2>
@@ -354,7 +351,7 @@
 
             <figure>
               <figcaption><a href="#">Rosie</a></figcaption>
-              <img src="images/rosie.JPG">
+              <img src="images/rosie.jpg">
             </figure>
 
             <figure>
@@ -364,7 +361,7 @@
 
             <figure>
               <figcaption><a href="#">Kyle</a></figcaption>
-              <img src="images/kyle.JPG">
+              <img src="images/kyle.jpg">
             </figure>
 
             <figure>
@@ -385,8 +382,7 @@
 
           <p class="friends-list-link"><a href="#">View All of Deya's Friends</a></p>
         </section>
-        
-        <!-- Comment Wall -->
+
 
         <section class="comment-wall">
           <header class="main-section-header">
@@ -394,7 +390,7 @@
           </header>
 
           <p id="comment-counter"><b>Displaying <span class="focus-highlight">10</span> of <span class="focus-highlight">63</span> comments (<a href="#">View/Edit All Comments</a>)</b></p>
-        
+
           <table>
             <tr>
               <th scope="row">
@@ -528,12 +524,12 @@
           </table>
 
           <p id="add-comment"><a href="#">Add Comment</a></p>
-        
+
         </section>
       </main>
-    </div>
 
-    <!-- Footer -->
+
+    </div>
 
     <footer class="footer">
 
@@ -545,15 +541,16 @@
           <li><a href="#">Privacy</a></li>
           <li><a href="#">Safety Tips</a></li>
           <li><a href="#">Contact DeyaDrive</a></li>
-          <li><a href="#">Promote</a></li>
+          <li><a href="#">Promote!</a></li>
           <li><a href="#">Advertise</a></li>
         </ul>
       </nav>
 
-      <small>©2022 DeyaDrive.com. All Rights Reserved.</small>
+      <small>©2022 DeyaCard.com. All Rights Reserved.</small>
     </footer>
   </div>
 
 </body>
 
 </html>
+

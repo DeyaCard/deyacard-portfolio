@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* Global */
 
 html {
   box-sizing: border-box;
@@ -43,17 +43,15 @@ p {
   line-height: 1.3;
 }
 
+/* Master Container */
 
-/* MAIN CONTAINER */
-
-.main-container {
+.master-container {
   margin: auto;
   width: 800px;
   background-color: white;
 }
 
-
-/* MAIN HEADER */
+/* Main Header */
 
 .main-header {
   display: flex;
@@ -76,7 +74,6 @@ p {
 .main-header a:visited {
   color: #ffffff;
 }
-
 
 /* SEARCH BAR */
 
@@ -129,9 +126,11 @@ p {
   justify-self: end;
 }
 
-
-/* NAVIGATION BAR */
-
+/*
+========================================
+Navigation Bar
+========================================
+*/
 .navbar {
   display: flex;
   align-items: center;
@@ -160,9 +159,11 @@ p {
   color: #003399;
 }
 
-
-/* PAGE CONTENT CONTAINER */
-
+/*
+========================================
+Page Content Container
+========================================
+*/
 .page-content-container {
   display: grid;
   grid-template-columns: 325px 453px;
@@ -170,9 +171,11 @@ p {
   grid-template-areas: "sidebar main";
 }
 
-
-/* PROFILE SIDEBAR COLUMN */
-
+/*
+========================================
+Profile Sidebar Column
+========================================
+*/
 .profile-sidebar {
   grid-area: sidebar;
   margin-left: 27px;
@@ -192,9 +195,11 @@ h1 {
   margin: 0;
 }
 
-
-/* PROFILE PICTURE CONTAINER */
-
+/*
+========================================
+Profile Picture Container
+========================================
+*/
 .profile-picture-container {
   display: grid;
   grid-template-columns: 170px 115px;
@@ -231,15 +236,21 @@ h1 {
   align-self: end;
 }
 
+.last-login li:last-child {
+  margin-bottom: 15px;
+}
+
 .pics-videos {
   grid-area: 1/1;
   justify-self: center;
   align-self: end;
 }
 
-
-/* CONTACT BOX  */
-
+/*
+========================================
+Contact Box
+========================================
+*/
 .contact-box {
   border: 2px solid rgb(102, 153, 204);
   height: 149px;
@@ -262,33 +273,38 @@ h1 {
   margin-left: 10px;
 }
 
-
-/* DEYA-DRIVE URL  */
-
-.deyadrive-url-box {
+/*
+========================================
+MySpace URL
+========================================
+*/
+.myspace-url-box {
   border: 1px solid rgb(102, 153, 204);
   height: 26px;
   margin-bottom: 24px;
 }
 
-.deyadrive-url-box h3,
-.deyadrive-url-box p {
+.myspace-url-box h3,
+.myspace-url-box p {
   margin: 0;
   padding: 0;
 }
 
-.deyadrive-url-box h3 {
+.myspace-url-box h3 {
   font-size: 8pt;
   padding-left: 2px;
 }
 
-.deyadrive-url-box p {
+.myspace-url-box p {
   padding-left: 6px;
+  ;
 }
 
-
-/* SIDEBAR TABLE CLASS */
-
+/*
+========================================
+Sidebar Table Class
+========================================
+*/
 .sidebar-table {
   border: 2px solid rgb(102, 153, 204);
   display: table;
@@ -322,31 +338,38 @@ h1 {
   padding: 3px;
 }
 
-
-/* INTERESTS */
-
+/*
+========================================
+Interests
+========================================
+*/
 .interests p {
   margin-top: 0;
 }
 
 .interests p:only-child,
 .interests p:last-child {
-  margin-bottom: 13px;
+  margin-bottom: 0;
 }
 
 .interests table {
   margin-bottom: 13px;
 }
 
-
-/* DETAILS  */
-
+/*
+========================================
+Details
+========================================
+*/
 .details table {
-  margin-bottom: 13px;
+  margin-bottom: 22px;
 }
 
-
-/* SCHOOLS  */
+/*
+========================================
+Schools
+========================================
+*/
 
 .schools .sidebar-table-header {
   width: 228px;
@@ -364,15 +387,20 @@ h1 {
   margin-bottom: 2em;
 }
 
-
-/* MAIN COLUMN */
-
+/*
+========================================
+Main Column
+========================================
+*/
 main {
   grid-area: main;
 }
 
-/* USER NETWORK */
-
+/*
+========================================
+User Network
+========================================
+*/
 .user-network {
   display: flex;
   justify-content: center;
@@ -388,9 +416,11 @@ main {
   font-size: 12pt;
 }
 
-
-/* BLOG */
-
+/*
+========================================
+Blog
+========================================
+*/
 .blog {
   display: grid;
   grid-auto-rows: 29px;
@@ -404,9 +434,11 @@ main {
   margin-top: 3px;
 }
 
-
-/* BLURBS */
-
+/*
+========================================
+Blurbs
+========================================
+*/
 .main-section-header {
   background-color: #ffcc99;
   padding-top: 3px;
@@ -439,9 +471,11 @@ main {
   font-weight: bold;
 }
 
-
-/* FRIEND SPACE  */
-
+/*
+========================================
+Friend Space
+========================================
+*/
 .friends header {
   margin-bottom: 6px;
 }
@@ -491,9 +525,11 @@ main {
   color: #cc0000;
 }
 
-
-/* COMMENT WALL  */
-
+/*
+========================================
+Comment Wall
+========================================
+*/
 .comment-wall .main-section-header {
   margin-bottom: 3px;
 }
@@ -554,13 +590,15 @@ main {
 
 #add-comment {
   text-align: right;
-  margin-right:10px;
+  margin-right: 10px;
   margin-bottom: 5px;
 }
 
-
-/* FOOTER */
-
+/*
+========================================
+Footer
+========================================
+*/
 footer {
   display: grid;
   grid-template-rows: 16px 39px;
