@@ -677,16 +677,16 @@ img {
   grid-auto-flow: dense;
   padding: 1rem;
 
-  .box {
+  /* .box {
     background-color: #CCC;
     background-size: cover;
+    }
 
     &:after {
       content: '';
       display: block;
       padding-top: calc(100% / (16/10));
-    }
-  }
+    } */
 }
 
 
