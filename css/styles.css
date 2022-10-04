@@ -1,4 +1,4 @@
-/* Global */
+/* GLOBAL */
 
 html {
   box-sizing: border-box;
@@ -43,7 +43,7 @@ p {
   line-height: 1.3;
 }
 
-/* Master Container */
+/* MAIN CONTAINER */
 
 .master-container {
   margin: auto;
@@ -51,7 +51,7 @@ p {
   background-color: white;
 }
 
-/* Main Header */
+/* MAIN HEADER */
 
 .main-header {
   display: flex;
@@ -126,11 +126,8 @@ p {
   justify-self: end;
 }
 
-/*
-========================================
-Navigation Bar
-========================================
-*/
+/* NAV BAR */
+
 .navbar {
   display: flex;
   align-items: center;
@@ -159,11 +156,8 @@ Navigation Bar
   color: #003399;
 }
 
-/*
-========================================
-Page Content Container
-========================================
-*/
+/* PAGE CONTENT CONTAINER */
+
 .page-content-container {
   display: grid;
   grid-template-columns: 325px 453px;
@@ -171,11 +165,8 @@ Page Content Container
   grid-template-areas: "sidebar main";
 }
 
-/*
-========================================
-Profile Sidebar Column
-========================================
-*/
+/* PROFILE SIDEBAR COLUMN */
+
 .profile-sidebar {
   grid-area: sidebar;
   margin-left: 27px;
@@ -195,11 +186,8 @@ h1 {
   margin: 0;
 }
 
-/*
-========================================
-Profile Picture Container
-========================================
-*/
+/* PROFILE PIC CONTAINER */
+
 .profile-picture-container {
   display: grid;
   grid-template-columns: 170px 115px;
@@ -246,11 +234,8 @@ Profile Picture Container
   align-self: end;
 }
 
-/*
-========================================
-Contact Box
-========================================
-*/
+/* CONTACT BOX */
+
 .contact-box {
   border: 2px solid rgb(102, 153, 204);
   height: 149px;
@@ -273,11 +258,8 @@ Contact Box
   margin-left: 10px;
 }
 
-/*
-========================================
-MySpace URL
-========================================
-*/
+/* URL BOX */
+
 .url-box {
   border: 1px solid rgb(102, 153, 204);
   height: 30px;
@@ -300,11 +282,8 @@ MySpace URL
   ;
 }
 
-/*
-========================================
-Sidebar Table Class
-========================================
-*/
+/* SIDEBAR TABLE CLASS */
+
 .sidebar-table {
   border: 2px solid rgb(102, 153, 204);
   display: table;
@@ -338,11 +317,8 @@ Sidebar Table Class
   padding: 3px;
 }
 
-/*
-========================================
-Interests
-========================================
-*/
+/* INTERESTS */
+
 .interests p {
   margin-top: 0;
 }
@@ -356,20 +332,13 @@ Interests
   margin-bottom: 13px;
 }
 
-/*
-========================================
-Details
-========================================
-*/
+/* DETAILS */
+
 .details table {
   margin-bottom: 22px;
 }
 
-/*
-========================================
-Schools
-========================================
-*/
+/* SCHOOLS */
 
 .schools .sidebar-table-header {
   width: 228px;
@@ -387,20 +356,14 @@ Schools
   margin-bottom: 2em;
 }
 
-/*
-========================================
-Main Column
-========================================
-*/
+/* MAIN */
+
 main {
   grid-area: main;
 }
 
-/*
-========================================
-User Network
-========================================
-*/
+/* USER NETWORK */
+
 .user-network {
   display: flex;
   justify-content: center;
@@ -416,11 +379,8 @@ User Network
   font-size: 12pt;
 }
 
-/*
-========================================
-Blog
-========================================
-*/
+/* BLOG */
+
 .blog {
   display: grid;
   grid-auto-rows: 29px;
@@ -434,11 +394,8 @@ Blog
   margin-top: 3px;
 }
 
-/*
-========================================
-Blurbs
-========================================
-*/
+/* BLURBS */
+
 .main-section-header {
   background-color: #ffcc99;
   padding-top: 3px;
@@ -471,11 +428,8 @@ Blurbs
   font-weight: bold;
 }
 
-/*
-========================================
-Friend Space
-========================================
-*/
+/* FRIEND SPACE */
+
 .friends header {
   margin-bottom: 6px;
 }
@@ -525,11 +479,8 @@ Friend Space
   color: #cc0000;
 }
 
-/*
-========================================
-Comment Wall
-========================================
-*/
+/* COMMENT WALL */
+
 .comment-wall .main-section-header {
   margin-bottom: 3px;
 }
@@ -594,11 +545,8 @@ Comment Wall
   margin-bottom: 5px;
 }
 
-/*
-========================================
-Footer
-========================================
-*/
+/* FOOTER */
+
 footer {
   display: grid;
   grid-template-rows: 16px 39px;
@@ -641,20 +589,18 @@ footer small {
 }
 
 
-/* Gallery */
+/* GALLERY */
 
 .grow img {
-  transition: 1s ease;
+  transition: 1.5s ease;
 }
 
 .grow img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
+  -webkit-transform: scale(2.5);
+  -ms-transform: scale(2.5);
   transform: scale(2.5);
   transition: 1.5s ease;
   border: 5px solid white;
-  padding: 0;
-  margin: 0;
 }
 
 
