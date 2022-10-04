@@ -650,9 +650,13 @@ footer small {
 .grow img:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 1s ease;
+  transform: scale(2.5);
+  transition: 1.5s ease;
+  border: 5px solid white;
+  padding: 0;
+  margin: 0;
 }
+
 
 img {
   max-width: 100%;
