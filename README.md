@@ -3,16 +3,33 @@
 </div>  
   
 
-### <div align="center">I'm Deya, a Full-Stack developer 👨‍💻</div>  
+### <div align="center">I'm Deya, a Full-Stack Developer 👨‍💻</div>  
   
 
-- 🔭 I’m currently working on [DeyaCard.com](https://github.com/DeyaCard/deyacard-portfolio)  
+- 🔭 I’m currently working on [DeyaCard.com](https://github.com/DeyaCard/deyacard-portfolio) , a website portfolio in the style of the original MySpace to showcase my web development and photography skills. 
   
 
 - 🌱 I’m currently learning React.js  
   
 
 <br/>  
+
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* VS Code
+
+
+## Setup/Installation Requirements
+* Internet access
+* Clone GitHub repository to desktop(https://github.com/DeyaCard/deyacard-portfolio)
+* Navigate to index.html file
+* Open in browser of choice
+
+
+## Known Bugs
+* No known issues - please report issues to thedeyacard@gmail.com
 
 
 ## My Skill Set  
@@ -78,24 +95,13 @@
 
 
 ## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=deyacard&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<br/>  
-
-
-## Recent Blog Posts  
-  
-
-<br/>  
-
-  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=deyacard&show_icons=true&count_private=true&hide_border=true" align="center" /></div>   
 
 <br/>  
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=deyacard&&style=flat-square" align="center" />
-</div>  
-  
+</div>    
 
 <br/>  
 
@@ -108,5 +114,7 @@
             </a></div>
 <br />
 
+## License
+* MIT Copyright (c) 2022 Deya Card
 ----
 <div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
