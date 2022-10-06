@@ -6,7 +6,7 @@
 ### <div align="center">I'm Deya, a Full-Stack Developer 👨‍💻</div>  
   
 
-- 🔭 I’m currently working on [DeyaCard.com](www.deyacard.com)) , a website portfolio in the style of the original MySpace to showcase my web development and photography skills. 
+- 🔭 I’m currently working on [DeyaCard.com](www.deyacard.com) , a website portfolio in the style of the original MySpace to showcase my web development and photography skills. 
   
 
 - 🌱 I’m currently learning React.js  
