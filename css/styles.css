@@ -642,31 +642,49 @@ img {
 /* CONTACT PAGE */
 
 .contact-form {
-  align-items: center;
-}
-
-.fcf-body {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #0000ff;
-  text-align: left;
-}
-
-input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* input[type=submit] {
-  background-color: #5DADE2;
+contact-form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 2vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+contact-form h3 {
+  color: #003399;
+  font-weight: 800;
+  margin-bottom: 5px
+}
+
+contact-form input, contact-form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #e5e5e5;
+  font-size: 14px;
+}
+
+contact-form button {
+  padding: 10px;
+  background: #003399;
   color: white;
-  padding: 12px 20px;
-  border: 2px;
-  border-radius: 4px;
-} */
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  margin: 18px auto 0;
+  border-radius: 30px;
+}
+
+
